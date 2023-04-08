@@ -205,7 +205,7 @@ def closeAccount(user_card_num):
 
 
 def account_management(user_card):
-    print("""\n1. Balance \n2. Add income \n3. Do transfer \n4. Close account \n5. Log out \n0. Exit""")
+    print("""\n1. Balance \n2. Add money \n3. Do transfer \n4. Close account \n5. Log out \n0. Exit""")
     user_balance_logout = int(input())
 
     if user_balance_logout == 1:
